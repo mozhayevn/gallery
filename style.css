@@ -1,0 +1,46 @@
+/*картинки 4х{
+    1.https://artes.su/wallpapers/40b6081fbc76ba0a08d7f8fda88b105e/5983_1.jpg
+    2.https://photopoint.com.ua/wp-content/uploads/2015/01/Kak-snimat-peyzazh-2.jpg
+    3.https://kartinkof.club/uploads/posts/2022-09/1662135624_1-kartinkof-club-p-novie-i-krasivie-kartinki-peizazhi-1.jpg
+    4.https://bigpicture.ru/wp-content/uploads/2013/04/Riverof01-800x600.jpg
+}*/
+
+body {
+    background-color: #fff;
+    color: #fff;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+  
+#image-container {
+    margin: 50px auto;
+    width: 500px;
+    height: 300px;
+    position: relative;
+}
+  
+#image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+  
+#navigation-buttons {
+    margin-top: 20px;
+}
+  
+.button {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 0 10px;
+}
